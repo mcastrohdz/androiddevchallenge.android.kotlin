@@ -3,7 +3,7 @@ package com.mach.jcompose.data.model
 import androidx.annotation.DrawableRes
 
 enum class DogSize(val size: String) {
-    LARGE("Large (61-100lbs"),
+    LARGE("Large (61-100lbs)"),
     MEDIUM("Medium (26-60lbs)"),
     SMALL("Small (25lbs or less)")
 }

@@ -37,6 +37,11 @@ object CustomTexts {
     }
 
     @Composable
+    fun TextCaption(text: String) {
+        CustomText(text = text, textType = TextTypes.CAPTION)
+    }
+
+    @Composable
     fun TextContent(text: String) {
         CustomText(text = text)
     }

@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
         setContent {
             BaseUi {
                 Box {
-                    val isPuppyDetailShown = remember(calculation = { mutableStateOf(0) })
+                    val isPuppyDetailShown = remember{ mutableStateOf(0) }
 
                     PuppyListUi.PuppiesList(puppyList = PuppiesRepository.getPuppiesList()) {
                         isPuppyDetailShown.value = it.id

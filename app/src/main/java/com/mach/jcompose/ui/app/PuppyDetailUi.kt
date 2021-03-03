@@ -24,8 +24,8 @@ object PuppyDetailUi {
                         CustomComposables.Space(DimensTypes.MEDIUM)
                         CustomComposables.LineDivider()
                         CustomComposables.Space(DimensTypes.MEDIUM)
-                        CustomTexts.TextContent(text = "${puppy.age} - ${puppy.size.size}")
-                        CustomTexts.TextContent(text = puppy.sex.what)
+                        CustomTexts.TextCaption(text = "${puppy.age} - ${puppy.size.size}")
+                        CustomTexts.TextCaption(text = puppy.sex.what)
                         CustomComposables.Space()
                         CustomTexts.TextContent(text = puppy.description)
                     }
